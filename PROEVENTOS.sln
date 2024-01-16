@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{DC502D30-1FBB-4D98-9C8B-FD79CCA6088D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{48E31F09-C774-4930-A291-31E5DF161624}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57816413-D4EF-46E2-963A-AC5275EE2766}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{677796B3-2AB2-4AB5-9E60-E4372CD286C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEvetos.API", "Backend\src\ProEvetos.API\ProEvetos.API.csproj", "{11EEA448-6183-46EC-805E-D90A0AF35DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEventos.API", "Backend\src\ProEventos.API\ProEventos.API.csproj", "{0283FD8D-6D26-490C-ADB7-CC8F4789A15F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,19 +15,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11EEA448-6183-46EC-805E-D90A0AF35DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11EEA448-6183-46EC-805E-D90A0AF35DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11EEA448-6183-46EC-805E-D90A0AF35DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11EEA448-6183-46EC-805E-D90A0AF35DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0283FD8D-6D26-490C-ADB7-CC8F4789A15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0283FD8D-6D26-490C-ADB7-CC8F4789A15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0283FD8D-6D26-490C-ADB7-CC8F4789A15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0283FD8D-6D26-490C-ADB7-CC8F4789A15F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{57816413-D4EF-46E2-963A-AC5275EE2766} = {DC502D30-1FBB-4D98-9C8B-FD79CCA6088D}
-		{11EEA448-6183-46EC-805E-D90A0AF35DF7} = {57816413-D4EF-46E2-963A-AC5275EE2766}
+		{677796B3-2AB2-4AB5-9E60-E4372CD286C6} = {48E31F09-C774-4930-A291-31E5DF161624}
+		{0283FD8D-6D26-490C-ADB7-CC8F4789A15F} = {677796B3-2AB2-4AB5-9E60-E4372CD286C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {515FAADC-1F2C-45CC-A6AD-FA0D9E470B55}
+		SolutionGuid = {0C9FFB03-B3D0-4462-B427-B1F37598A06D}
 	EndGlobalSection
 EndGlobal
