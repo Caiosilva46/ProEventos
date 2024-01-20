@@ -10,7 +10,13 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent, EventosComponent, PalestrantesComponent],
-  imports: [BrowserModule, AppRoutingModule, CommonModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    CommonModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
