@@ -8,12 +8,20 @@ import { error } from 'console';
   styleUrls: ['./eventos.component.scss'],
 })
 export class EventosComponent implements OnInit {
-  public eventos: any;
+  public eventos: any = [];
+
+  widthImg: number = 80;
+  marginImg: number = 2;
+  showImg: boolean = true;
 
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.getEventos();
+  }
+
+  public ShowImagem() {
+    this.showImg = !this.showImg;
   }
 
   public getEventos(): void {
